@@ -5,7 +5,7 @@ History
 1.0.1 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Fix README
 
 
 1.0.0 (2022-01-06)
