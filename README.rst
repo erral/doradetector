@@ -32,39 +32,38 @@ Features
 Usage
 -----
 
-```python
->>> from doradetector import doradetector
->>> results = doradetector.doradetector('2022-01-06')
->>> results
-[{'channel': 'ETB-1',
-  'date': '2022-01-06',
-  'hour': ' 07:05',
-  'title': '\r\n'
-           '\t\t\t\t\t\r\n'
-           '\t  \t\tDoraemon\t\t\t\t\t\t\t\t\t\t - Gorputzak trukatuta '},
- {'channel': 'ETB-3',
-  'date': '2022-01-06',
-  'hour': ' 07:00',
-  'title': '\r\n'
-           '\t\t\t\t\t\r\n'
-           '\t  \t\tDoraemon\t\t\t\t\t\t\t\t\t\t - Gorputzak trukatuta '},
- {'channel': 'ETB-3',
-  'date': '2022-01-06',
-  'hour': ' 21:40',
-  'title': '\r\n'
-           '\t\t\t\t\t\t\t\r\n'
-           '\t  \t\tDoraemon\t\t\t\t\t - Nobitaren energia '},
- {'channel': 'ETB-3',
-  'date': '2022-01-06',
-  'hour': ' 22:05',
-  'title': '\r\n'
-           '\t\t\t\t\t\t\t\r\n'
-           '\t  \t\tDoraemon\t\t\t\t\t - Giza lokomotora '},
- {'channel': 'ETB-3',
-  'date': '2022-01-06',
-  'hour': ' 22:30',
-  'title': '\r\n\t\t\t\t\t\t\t\r\n\t  \t\tDoraemon\t\t\t\t\t - Halloween '}]
-```
+How to use this module::
+    >>> from doradetector import doradetector
+    >>> results = doradetector.doradetector('2022-01-06')
+    >>> results
+    [{'channel': 'ETB-1',
+    'date': '2022-01-06',
+    'hour': ' 07:05',
+    'title': '\r\n'
+            '\t\t\t\t\t\r\n'
+            '\t  \t\tDoraemon\t\t\t\t\t\t\t\t\t\t - Gorputzak trukatuta '},
+    {'channel': 'ETB-3',
+    'date': '2022-01-06',
+    'hour': ' 07:00',
+    'title': '\r\n'
+            '\t\t\t\t\t\r\n'
+            '\t  \t\tDoraemon\t\t\t\t\t\t\t\t\t\t - Gorputzak trukatuta '},
+    {'channel': 'ETB-3',
+    'date': '2022-01-06',
+    'hour': ' 21:40',
+    'title': '\r\n'
+            '\t\t\t\t\t\t\t\r\n'
+            '\t  \t\tDoraemon\t\t\t\t\t - Nobitaren energia '},
+    {'channel': 'ETB-3',
+    'date': '2022-01-06',
+    'hour': ' 22:05',
+    'title': '\r\n'
+            '\t\t\t\t\t\t\t\r\n'
+            '\t  \t\tDoraemon\t\t\t\t\t - Giza lokomotora '},
+    {'channel': 'ETB-3',
+    'date': '2022-01-06',
+    'hour': ' 22:30',
+    'title': '\r\n\t\t\t\t\t\t\t\r\n\t  \t\tDoraemon\t\t\t\t\t - Halloween '}]
 
 Credits
 -------
