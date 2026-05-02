@@ -11,13 +11,13 @@ with open("HISTORY.rst") as history_file:
     history = history_file.read()
 
 requirements = [
-    "beautifulsoup4==4.10.0",
-    "certifi==2021.10.8",
-    "charset-normalizer==2.0.10",
-    "idna==3.3",
-    "requests==2.27.1",
-    "soupsieve==2.3.1",
-    "urllib3==1.26.7",
+    "beautifulsoup4",
+    "certifi",
+    "charset-normalizer",
+    "idna",
+    "requests",
+    "soupsieve",
+    "urllib3",
 ]
 
 test_requirements = []
