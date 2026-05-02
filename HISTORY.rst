@@ -2,8 +2,8 @@
 History
 =======
 
-1.0.2 (unreleased)
-------------------
+1.1 (2026-05-02)
+----------------
 
 - Do not pin exact dependencies.
   [erral]
